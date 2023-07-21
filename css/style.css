@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    background-color: #f3f4f4;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* HEADER */
+.header {
+    background-image: url("/assets/040622_HAM_261b-2000x1333.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 96vh;
+    width: 100%;
+}
+/* NAVBAR */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+/* LOGO */
+.logo {
+    width: 50%;
+    border-right: 1px solid #bac5c6;
+    height: 690%;
+}
+.logo a{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+.logo img {
+    height: 60px;
+    width: 60px;
+    padding-left: 30px;
+}
+.navbar-title {
+    color: f3f4f4;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    font: 400 normal 170%/1.1 "GT America Standard Regular";
+    letter-spacing:2px;
+    padding-top: 5px;
+}
+.navbar-title span.small {
+    font-size: 14px;
+    padding-left: 22px;
+    padding-top: 0;
+    letter-spacing: 1.1px;
+}
+/* OPTIONS */
+.options {
+    display: flex;
+}
+.search, .menu {
+    background-color: #0e0e0e;
+    height: inherit;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    border-right: 1px solid #2e2e30;
+}
+.optn {
+    display: flex;
+    cursor: pointer;
+}
+.optn p {
+    color: #f3f4f4;
+    font: 400 normal 19px sans-serif;
+}
+.optn i, .optn img{
+    color: #f3f4f4;
+    font-size: 22px;
+    padding-right: 12px;
+}
+/* HEADER CONTENT */
+.header-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 85.5%;
+    display: flex;
+}
+.container-left {
+    width: 180%;
+}
+.container-left h1 {
+    margin: 0;
+    color: #f3f4f4;
+    padding-left: 10%;
+    padding-top: 15%;
+    font: 600 normal 80px "Canela Web";
+}
+.container-right h1 {
+    margin: 0;
+    color: #f3f4f4;
+    padding: 30% 10% 0 10%;
+    font: 500 normal 40px "Canela Deck Web";
+}
+/* HORIZONTAL BAR */
+.horizontal-container {
+    width: 65%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+    font-family:  sans-serif;
+    color: #292c2f;
+    padding-left: 70px;
+}
+/* MAIN CONTENT 1 */
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 5px solid black;
+}
+.main-left, .main-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 30px 50px;
+}
+.main-left-desc , .main-right-desc {
+    background-color: #e3e5e5;
+    overflow: hidden;
+}
+.main-left-desc img, .main-right-desc img {
+    height: 350px;
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+.main-left a, .main-right a, .media-content a{
+    font-size: 20px;
+    font: 600 18px sans-serif;  
+    display: flex;  
+    padding-bottom: 30px;
+    align-items: center;
+    padding-top: 30px;
+}
+.fa-circle-arrow-right{
+    color: #656F77
+}
+.main-heading{
+    font: 400 60px "Canela Deck Web";
+    padding-bottom: 20px;
+}
+.light-subtext {
+    font: 18px sans-serif;
+    color: #3a3c3d;
+}
+.sub-heading {
+    font: 400 38px "Canela Deck Web";
+    padding: 0px 30px;
+}
+/* STATISTIC */
+.statistics {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    padding: 0 80px;
+}
+.statistic-item {
+    margin-bottom: 20px;
+}
+.statistic-value {
+  color: #a51c30;
+  font-size: 50px;
+  font-family: "Canela Deck Web";
+}
+.statistic-desc {
+  color: black;
+  font-size: 20px;
+}
+/* MEDIA CONTENT */
+.media-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 80px;
+}
+.media-content img {
+    height: 300px;
+    margin-right: 40px;
+}
+.media-content-desc {
+    text-align: left;
+}   
+/* FOOTER */
+.footer {
+    background-color: #0e0e0e;
+    overflow: hidden;
+}
+.section {
+    display: flex;
+    justify-content: space-around;
+}
+.sec {
+    text-align: center;
+    padding-top: 50px;
+}
+.sec h3{
+    color: #fff;
+    font-size: 20px;
+}
+.sec p {
+    color: #8996a0;
+    font-size: 20px;
+}
+.footer-image {
+    margin-left: 50%;
+    margin-top: 50px;
+    margin-bottom: -70px;
+    transform: scale(1.2);
+}
+.footer-image img{
+    margin-left: 4%;
+    height: 80px;
+    width: 80px;
+}
+.bottom-list {
+    display: flex;
+    justify-content: space-around;
+    color: #8996a0;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.bottom-list div p  {
+    padding-right: 20px;
+}
+
+
+
+
+
+
+/* HOVER */
+.optn:hover {
+    background-color: #202124;
+}
+.main-right a:hover i {
+    color: black;
+}
+.main-left-desc:hover , .main-right-desc:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+.main-right-desc:hover img, .main-left-desc:hover img {
+    transform: scale(1.1);
+    transition: all .3s;
+}
+.main-right-desc:hover a i, .main-left-desc:hover a i {
+    color: black;
+}
