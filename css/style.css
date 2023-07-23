@@ -136,7 +136,8 @@ a {
 }
 .main-1 div, .main-2 div, .main-3 div {
     width: 45%;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 .main-1 h1 {
     width: 50%;
@@ -292,6 +293,12 @@ a:hover i {
     }
     .search p, .menu p {
         display: none;
+    }
+    .optn:hover {
+        background-color: transparent;
+    }
+    .optn:hover i{
+        color: #abb8c3;
     }
     .header-container {
         flex-direction: column;  
