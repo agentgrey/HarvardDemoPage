@@ -124,16 +124,22 @@ a {
 /* MAIN CONTENT 1 */
 .main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 0 20px;
     border-bottom: 5px solid black;
 }
-.main-left, .main-right {
+.main-1 , .main-2, .main-3 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.main-1 div, .main-2 div, .main-3 div {
     width: 45%;
-    padding: 2% 2%;
+    margin-bottom: 60px;
+}
+.main-1 h1 {
+    width: 50%;
 }
 .main-left-desc , .main-right-desc {
     background-color: #e3e5e5;
@@ -144,7 +150,7 @@ a {
     padding: 0px;
     padding-bottom: 10px;
 }
-.main-left a, .main-right a, .media-content a{
+.main a, .media-content a{
     font-size: 20px;
     font: 600 18px sans-serif;  
     display: flex;  
@@ -343,15 +349,20 @@ a:hover i {
     .header-container {
         height: 62vw;
     }
-    .main {
+    .main-1, .main-2, .main-3 {
         display: flex;
         flex-direction: column;
     }
-    .main-left , .main-right {
+    .main-1 div, .main-2 div, .main-3 div {
         width: 90%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 40px;
     }
-    .main-left h1 {
-        font-size: 36px;
+    .main-1 h1 {
+        width: 100%;
+        font-size: 38px;
+        padding: 0;
     }
     .statistics {
         grid-template-columns: repeat(1, 1fr);
